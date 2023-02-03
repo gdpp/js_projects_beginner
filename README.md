@@ -2,7 +2,7 @@
 
 ![javascript image](https://northsoft.co/blog/wp-content/uploads/2022/11/image.jpeg)
 
-Once upon finished the Javascript course [Link to Javascript Course Repository](https://github.com/gdpp/javascript).
+Once upon finished the Javascript course [Link to Repository](https://github.com/gdpp/javascript).
 This is a complementary repository with the prupose of practice the learned in the previous linked course.
 
 ## Beginner to Lower Intermediate

@@ -7,8 +7,6 @@ This is a complementary repository with the prupose of practice the learned in t
 
 ## Beginner to Lower Intermediate
 
----
-
 These projects are from beginner level to low intermediate level and here are a list of the used topics in the projects:
 
 -   Variables, data types & operators.
@@ -33,7 +31,7 @@ Here's the list of projects done, at the end of the page you will find a link to
 
 [Live Demo]()
 
-After finished these projects. I'm going to continue with the projects from low intermediate to low advanced and later finish with high advanced level projects
+After finished these projects. I'm going to continue from low intermediate to low advanced topics and projects in another repository for better organization and maintenance. Later conclude with high advanced level topics and projects
 
 Regards.
 

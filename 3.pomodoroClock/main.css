@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dff8eb;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#app {
+    background-color: #150578;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 500px;
+    margin: 1rem;
+    padding: 20px;
+}
+
+#time {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#time #task-name {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#time #value {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#form {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+input[type='text'] {
+    padding: 5px;
+    border: solid 1px #cccccc;
+    width: 300px;
+}
+
+#btn-add {
+    border: none;
+    background-color: #427aa1;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font: inherit;
+    font-weight: 700;
+}
+
+#tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.task {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.task .completed {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.done {
+    background-color: #358600;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    display: inline-block;
+    font: inherit;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+.btn-start {
+    border: none;
+    background-color: gray;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font: inherit;
+    font-weight: 700;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 1rem;
+}

@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(45deg, #1d1d1d, #616161);
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.calculator {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+#display {
+    color: #00ff00;
+    margin: 0 10px;
+    height: 120px;
+    width: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+#equal-btn {
+    height: 130px;
+}
+
+.calculator button#clear-btn {
+    background-color: #ffd5d8;
+    color: #fc4552;
+}
+
+.btn-number {
+    background-color: #c3eaff;
+    color: #000000;
+}
+
+.btn-operator {
+    background-color: #ffd0fb;
+    color: #f967f3;
+}
+
+.btn-equal {
+    background-color: #adf9e7;
+    color: #000000;
+}
+
+.theme-toggler {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #ffffff;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 50%;
+    background-color: #333333;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    border: 0;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* * ===== DARK THEME ===== */
+
+body.dark {
+    background: linear-gradient(45deg, #f06291, #fffde7);
+}
+
+.calculator.dark {
+    background-color: #1b1b1b;
+}
+
+.theme-toggler.dark {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+#display.dark {
+    color: #00ff00;
+}
+
+.btn-operator#clear-btn.dark {
+    background-color: #4c35aa;
+    color: #ffffff;
+}
+
+.btn-number.dark {
+    background-color: #8efda5;
+    color: #000000;
+    font-weight: 600;
+}
+
+.btn-operator.dark {
+    background-color: #f0db4f;
+    color: #aa00a4;
+}
+
+.btn-equal.dark {
+    background-color: #f23b00;
+    color: #ffffff;
+}

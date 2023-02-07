@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e3f2fd;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+}
+
+.container .color {
+    background-color: #ffffff;
+    list-style: none;
+    margin: 13px;
+    padding: 7px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(52, 87, 220, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.container .color:active {
+    transform: scale(0.95);
+}
+
+.color .rect-box {
+    width: 185px;
+    height: 188px;
+    background: #8a6cff;
+    border-radius: 5px;
+}
+
+.color:hover .rect-box {
+    filter: brightness(106%);
+}
+
+.color .hex-value {
+    display: block;
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin: 12px 0 8px;
+    color: #444444;
+    text-transform: uppercase;
+}
+
+.btn-refresh {
+    position: fixed;
+    left: 50%;
+    bottom: 40px;
+    outline: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #8a6cff;
+    border: solid 2px #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 10px 25px rgba(52, 87, 220, 0.2);
+    transform: translateX(-50%);
+}
+
+@media screen and (max-width: 510px) {
+    .container {
+        margin: 10px;
+    }
+
+    .container .color {
+        margin: 8px;
+        padding: 5px;
+    }
+
+    .color .rect-box {
+        width: 145px;
+        height: 148px;
+    }
+
+    .color .hex-value {
+        font-size: 1.05rem;
+    }
+}

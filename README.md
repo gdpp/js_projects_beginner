@@ -23,6 +23,7 @@ Here's the list of projects done, you can try the projects in this [Live Demo]()
 | 1. Simple Quote Generator. | 1-Beginner |
 | 2. Calculator              | 1-Beginner |
 | 3. Pomodoro Clock.         | 1-Beginner |
+| 4. Color Generator.        | 1-Beginner |
 
 List of the used topics in these projects:
 

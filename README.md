@@ -8,11 +8,11 @@ Once upon finished the Javascript course [Link to Repository](https://github.com
 
 Projects are divided into three tiers based on the knowledge of topics required to complete them.
 
-| Tier | Skills Required                                                                                                                          |
-| :--: | ---------------------------------------------------------------------------------------------------------------------------------------- |
-|  1   | Beginner Skills: Variables, Operators, Flow control structures, Functions, DOM, Array and Basics Objects                                 |
-|  2   | Intermediate Skills: OOP (Object Oriented Programming), Browser API's, Events and Advance Function Concepts                              |
-|  3   | Advance Skills: Promises & Callbacks, Http Request, Modular Js, Meta-Programming Security Performance & Optimization and Web Components. |
+| Tier  | Skills Required                                                                                                                          |
+| :---: | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **1** | **Beginner Skills: Variables, Operators, Flow control structures, Functions, DOM, Array and Basics Objects**                             |
+|   2   | Intermediate Skills: OOP (Object Oriented Programming), Browser API's, Events and Advance Function Concepts                              |
+|   3   | Advance Skills: Promises & Callbacks, Http Request, Modular Js, Meta-Programming Security Performance & Optimization and Web Components. |
 
 ### Tier 1: Beginner Projects
 

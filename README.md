@@ -27,6 +27,7 @@ Here's the list of projects done, you can try the projects in this [Live Demo]()
 | 5. Input Mask.              | 1-Beginner |
 | 6. Clock.                   | 1-Beginner |
 | 7. Random Number Generator. | 1-Beginner |
+| 8. Palindrome Checker.      | 1-Beginner |
 
 List of the used topics in these projects:
 

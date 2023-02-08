@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #114357;
+    background: -webkit-linear-gradient(to right, #f29492, #114357);
+    background: linear-gradient(to right, #f29492, #114357);
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+
+.container {
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    max-width: 350px;
+    min-width: 250px;
+    margin: 0 1rem;
+    text-align: center;
+    font-size: 36px;
+}
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    height: 600px;
+    min-width: 250px;
+    margin: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selection {
+    font-weight: 700;
+    background-color: #ededed;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    border-radius: 10px 10px 0 0;
+    font-size: 90px;
+    margin: 0.5rem 1rem;
+}
+
+.form {
+    background-color: #ededed;
+    border-radius: 0 0 10px 10px;
+    height: 60%;
+    margin: 0.5rem 1rem;
+    width: 95%;
+    padding: 1rem;
+}
+
+.form label {
+    font-size: 20px;
+}
+
+.form input[type='text'] {
+    border-radius: 5px;
+    border: none;
+    height: 32px;
+    width: 100%;
+    outline: none;
+    padding: 0 10px;
+    margin: 0.5rem 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #2a2a2a;
+    font-family: inherit;
+}
+
+.form .form-checkbox {
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.btn-submit {
+    background-color: #114357;
+    border: none;
+    padding: 12px 25px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: #ffffff;
+    font-family: inherit;
+    font-weight: 700;
+    margin: 1.5rem 0;
+    width: 100%;
+    border-radius: 10px;
+}
+.btn-submit:hover {
+    background-color: #f29492;
+    color: #000000;
+}

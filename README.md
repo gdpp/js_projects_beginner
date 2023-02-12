@@ -16,7 +16,7 @@ Projects are divided into three tiers based on the knowledge of topics required 
 
 ### Tier 1: Beginner Projects
 
-Here's the list of projects done, you can try the projects in this [Live Demo]() page.
+Here's the list of projects done, you can try the projects in this [Live Demo](https://gdpp.github.io/js_projects_beginner/) page.
 
 | Name                        | Tier       |
 | --------------------------- | ---------- |

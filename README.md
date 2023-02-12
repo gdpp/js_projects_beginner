@@ -29,6 +29,7 @@ Here's the list of projects done, you can try the projects in this [Live Demo]()
 | 7. Random Number Generator. | 1-Beginner |
 | 8. Palindrome Checker.      | 1-Beginner |
 | 9. Toast Notifications.     | 1-Beginner |
+| 10. QR Code Generator       | 1-Beginner |
 
 List of the used topics in these projects:
 
